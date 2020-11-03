@@ -9,6 +9,10 @@ spring:
   cloud:
     config:
       override-none: true
+  sleuth:
+    sampler:
+      probability: 0.1
+
 server:
   port: 8001
 
